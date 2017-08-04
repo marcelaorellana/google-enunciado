@@ -1,0 +1,79 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.slab{
+	font-family: $font-slab;
+}
+header{
+	text-align: center;
+	padding: $padding;
+	img{
+		width: 50%;
+		height: auto;
+	}
+	ul{
+		max-width: 60%;
+		margin: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}
+.podcast{
+	padding: $padding;
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+.linea{
+	margin: $padding;
+	width: 85%;
+	height: 3px;
+	background-color: $azul;
+}
+.news{
+	padding: $padding;
+	img{
+		width: 100%;
+		height: auto;
+	}
+	.text-blue{
+		text-align: right;
+		color: $azul;
+	}
+	.gray{
+		padding: 10px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		background-color: $gray;
+		img{
+		width: 70px;
+		height: auto;
+		}
+	}
+	
+}
+.porfolio{
+	padding: $padding;
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+.info{
+	padding: $padding;
+	.bold{
+		font-weight: bold;
+	}
+}
+footer{
+	padding: $padding;
+	display: flex;
+	justify-content: space-between;
+	img{
+		width: 60px;
+		height: 60px;
+	}
+}

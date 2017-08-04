@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab");
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.slab {
+  font-family: "Roboto Slab", serif; }
+
+header {
+  text-align: center;
+  padding: 20px 100px; }
+  header img {
+    width: 50%;
+    height: auto; }
+  header ul {
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+
+.podcast {
+  padding: 20px 100px; }
+  .podcast img {
+    width: 100%;
+    height: auto; }
+
+.linea {
+  margin: 20px 100px;
+  width: 85%;
+  height: 3px;
+  background-color: #4285F4; }
+
+.news {
+  padding: 20px 100px; }
+  .news img {
+    width: 100%;
+    height: auto; }
+  .news .text-blue {
+    text-align: right;
+    color: #4285F4; }
+  .news .gray {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F2F2F2; }
+    .news .gray img {
+      width: 70px;
+      height: auto; }
+
+.porfolio {
+  padding: 20px 100px; }
+  .porfolio img {
+    width: 100%;
+    height: auto; }
+
+.info {
+  padding: 20px 100px; }
+  .info .bold {
+    font-weight: bold; }
+
+footer {
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between; }
+  footer img {
+    width: 60px;
+    height: 60px; }
+
+/*# sourceMappingURL=main.css.map */
