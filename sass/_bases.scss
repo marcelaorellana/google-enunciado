@@ -1,6 +1,10 @@
 body{
 	font-family: 'Roboto', sans-serif;
 }
+img{
+	width: 100%;
+	height: auto;
+	}
 .slab{
 	font-family: $font-slab;
 }
@@ -21,10 +25,6 @@ header{
 }
 .podcast{
 	padding: $padding;
-	img{
-		width: 100%;
-		height: auto;
-	}
 }
 .linea{
 	margin: $padding;
@@ -34,10 +34,7 @@ header{
 }
 .news{
 	padding: $padding;
-	img{
-		width: 100%;
-		height: auto;
-	}
+	
 	.text-blue{
 		text-align: right;
 		color: $azul;
@@ -57,10 +54,6 @@ header{
 }
 .porfolio{
 	padding: $padding;
-	img{
-		width: 100%;
-		height: auto;
-	}
 }
 .info{
 	padding: $padding;
