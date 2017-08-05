@@ -39,17 +39,22 @@ header{
 		text-align: right;
 		color: $azul;
 	}
-	.gray{
-		padding: 10px;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		background-color: $gray;
-		img{
-		width: 70px;
-		height: auto;
+
+	$var: true !default; 
+	@if $var == true {
+	  	.gray{
+			padding: 10px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			background-color: $gray;
+			img{
+			width: 70px;
+			height: auto;
+			}
 		}
 	}
+	
 	
 }
 .porfolio{
